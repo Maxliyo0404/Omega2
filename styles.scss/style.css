@@ -36,4 +36,9 @@ header .header-navbar .logo {
 }
 header .header-navbar .logo:hover {
   color: #165DF5;
+}
+header .header-navbar .header-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */
