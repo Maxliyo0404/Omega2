@@ -55,8 +55,29 @@ header .header-navbar .header-list .header-item a:hover {
   color: #F04037;
   cursor: pointer;
 }
-header .header-hero {
+header .header-heros .header-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+header .header-heros .header-hero .hero-left {
+  max-width: 542px;
+}
+header .header-heros .header-hero .hero-left h2 {
+  width: 691px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+  letter-spacing: -2.5px;
+  color: #19191B;
+  margin-bottom: 25px;
+}
+header .header-heros .header-hero .hero-left p {
+  width: 536px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #696871;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=style.css.map */
