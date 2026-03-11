@@ -35,7 +35,8 @@ header .header-navbar .logo {
   letter-spacing: -0.75px;
 }
 header .header-navbar .logo:hover {
-  color: #165DF5;
+  color: #F04037;
+  cursor: pointer;
 }
 header .header-navbar .header-list {
   display: flex;
