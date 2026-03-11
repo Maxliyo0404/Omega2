@@ -61,16 +61,16 @@ header .header-heros .header-hero {
   justify-content: space-between;
 }
 header .header-heros .header-hero .hero-left {
-  max-width: 542px;
+  width: 45%;
 }
 header .header-heros .header-hero .hero-left h2 {
-  width: 691px;
+  width: 600px;
   font-weight: 700;
-  font-size: 80px;
-  line-height: 84px;
-  letter-spacing: -2.5px;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
   color: #19191B;
-  margin-bottom: 25px;
+  margin-bottom: 29px;
 }
 header .header-heros .header-hero .hero-left p {
   width: 536px;
