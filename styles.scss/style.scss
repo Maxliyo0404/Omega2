@@ -18,6 +18,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+   
     .header-navbar{
         padding: 30px 0;
         display: flex;
@@ -61,6 +62,7 @@ header{
         justify-content: space-between;
         .hero-left{
             width: 45%;
+          
               h2{
                   width: 600px;
                   font-weight: 700;
