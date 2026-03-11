@@ -54,4 +54,9 @@ header .header-navbar .header-list .header-item a {
 header .header-navbar .header-list .header-item a:hover {
   color: #F04037;
   cursor: pointer;
+}
+header .header-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
