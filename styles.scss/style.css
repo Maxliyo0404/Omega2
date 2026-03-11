@@ -80,4 +80,23 @@ header .header-heros .header-hero .hero-left p {
   letter-spacing: -0.66px;
   color: #696871;
   margin-bottom: 35px;
+}
+header .header-heros .header-hero .hero-left .form {
+  max-width: 539px;
+  background: #FFFFFF;
+  border: 1px solid #EAE9F2;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-heros .header-hero .hero-left .form .label {
+  max-width: 539px;
+  background: #FFFFFF;
+}
+header .header-heros .header-hero .hero-left .form .label input {
+  outline: none;
+  border: none;
+  background: none;
 }/*# sourceMappingURL=style.css.map */

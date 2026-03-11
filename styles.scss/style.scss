@@ -84,15 +84,22 @@ header{
                 background: #FFFFFF;
                 border: 1px solid #EAE9F2;
                 border-radius: 10px;
+                 padding: 18px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
                 .label{
                      max-width: 539px;
                      background: #FFFFFF;
-                     border: 1px solid #EAE9F2;
-                     padding: 25px;
-                     outline: none;
+                     input{
+                        outline: none;
+                        border: none;
+                        background: none;
+                     }
                 }
         }
     }
     }
    
+}
 }
