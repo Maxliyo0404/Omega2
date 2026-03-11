@@ -37,6 +37,20 @@ header{
          display: flex;
            align-items: center; 
            gap: 30px;
+           .header-item{
+            a{
+               font-weight: 400;
+               font-size: 16px;
+               line-height:100%;
+               letter-spacing: 0.5;
+               text-align: center;
+               color: #19191B;
+              &:hover{
+                 color: #F04037;
+                 cursor: pointer;
+              } 
+            }
+           }
         }
     }
 }

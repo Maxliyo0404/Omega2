@@ -41,4 +41,16 @@ header .header-navbar .header-list {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+header .header-navbar .header-list .header-item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.5;
+  text-align: center;
+  color: #19191B;
+}
+header .header-navbar .header-list .header-item a:hover {
+  color: #F04037;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
