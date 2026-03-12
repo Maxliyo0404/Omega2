@@ -361,7 +361,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
     flex-wrap: wrap;
   }
   .section_one .section_one-wrapper .one-left .one-list .one-item {
-    max-width: 48%;
+    width: 100%;
   }
   .section_one .section_one-wrapper .one-right {
     max-width: 100%;
