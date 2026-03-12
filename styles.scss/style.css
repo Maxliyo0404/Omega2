@@ -166,6 +166,10 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: #FFFFFF;
 }
 
+.section_on {
+  background: #413E65;
+}
+
 @media (max-width: 1060px) {
   header .header-heros .header-hero .hero-right .hero-rasm {
     top: -90px;
