@@ -292,6 +292,14 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: white !important;
 }
 
+.section_two {
+  background-image: url(../image/two\ \(2\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0;
+}
+
 @media (max-width: 1060px) {
   header .header-heros .header-hero .hero-right .hero-rasm {
     top: -90px;
