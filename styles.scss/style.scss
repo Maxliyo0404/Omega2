@@ -193,6 +193,7 @@ header{
 }
 @media(max-width:960px){
   header{
+    min-height: 100%;
     .header-heros{
       .header-hero{
         .hero-right{
@@ -217,6 +218,8 @@ header{
          }
          .hero-right{
           flex-direction: row;
+          justify-content:center;
+          padding-top: 20px;
           .hero-rasm{
             width: 50%;
            position: static;
@@ -224,16 +227,55 @@ header{
             right: auto;
           }
           .hero-text{
-           width: 150px;
-           height: 150px;
+           width: 160px;
+           height: 160px;
            position: static;
+           padding: 8px;
+           text-align: center;
             top: auto;
             right: auto;
             .icon{
               width: 35px;
               height: 35px;
             }
+            h3{
+              font-size: 40px;
+              margin-bottom: 0;
+            }
+            p{
+              font-size: 15px;
+            }
           }
+         }
+      }
+    }
+  }
+}
+@media(max-width:760px){
+   header{
+    .header-heros{
+      .header-hero{
+          flex-direction: column;
+          padding: 20px 0;
+         .hero-left{
+          width: 100%;
+          text-align: center;
+            h2{
+              width: 100%;
+              font-size: 50px;
+              line-height: 52px;
+              margin-bottom: 20;
+            
+            }
+            p{
+              width: 100%;
+              font-size: 18px;
+              line-height: 22px;
+            }
+         
+         }
+         .hero-right{
+          display: none;
          }
       }
     }
@@ -242,6 +284,13 @@ header{
 @media(max-width:1160px){
 
 }
-@media(max-width:1160px){
-
-}
+   .form{
+             width: 79%;
+              padding: 0px;
+              .label{
+                width: 70%;
+              }
+              .hero-btn{
+                padding: 5px 30px;
+              }
+            }
