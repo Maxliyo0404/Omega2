@@ -246,13 +246,83 @@ header .header-heros .header-hero .hero-right .hero-text p {
     display: none;
   }
 }
-.form {
-  width: 79%;
-  padding: 0px;
+@media (max-width: 660px) {
+  header .header-heros .header-hero {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  header .header-heros .header-hero .hero-left {
+    width: 100%;
+    text-align: center;
+  }
+  header .header-heros .header-hero .hero-left h2 {
+    width: 100%;
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 20;
+  }
+  header .header-heros .header-hero .hero-left p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  header .header-heros .header-hero .hero-left .form {
+    max-width: 100%;
+    padding: 2px;
+  }
+  header .header-heros .header-hero .hero-left .form .label {
+    max-width: 100%;
+  }
+  header .header-heros .header-hero .hero-right {
+    display: none;
+  }
 }
-.form .label {
-  width: 70%;
-}
-.form .hero-btn {
-  padding: 5px 30px;
+@media (max-width: 560px) {
+  header .header-navbar {
+    max-width: 100%;
+    gap: 15px;
+  }
+  header .header-navbar .logo {
+    font-size: 20px;
+  }
+  header .header-navbar .header-list {
+    gap: 10px;
+  }
+  header .header-navbar .header-list .header-item a {
+    font-size: 13px;
+  }
+  header .header-heros .header-hero {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  header .header-heros .header-hero .hero-left {
+    width: 100%;
+    text-align: center;
+  }
+  header .header-heros .header-hero .hero-left h2 {
+    width: 100%;
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 20;
+  }
+  header .header-heros .header-hero .hero-left p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  header .header-heros .header-hero .hero-left .form {
+    max-width: 100%;
+    padding: 2px;
+  }
+  header .header-heros .header-hero .hero-left .form .label {
+    max-width: 100%;
+  }
+  header .header-heros .header-hero .hero-left .form .hero-btn {
+    padding: 2px 16px;
+  }
+  header .header-heros .header-hero .hero-right {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
