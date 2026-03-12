@@ -306,6 +306,9 @@ header .header-heros .header-hero .hero-right .hero-text p {
     top: -90px;
     right: 90px;
   }
+  .section_one .section_one-wrapper {
+    gap: 10px;
+  }
 }
 @media (max-width: 860px) {
   header .header-heros .header-hero {

@@ -345,6 +345,11 @@ header{
       }
     }
   }
+  .section_one{
+    .section_one-wrapper{
+      gap: 10px;
+    }
+  }
 }
 @media(max-width:860px){
   header{
