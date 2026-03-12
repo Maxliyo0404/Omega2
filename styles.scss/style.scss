@@ -264,7 +264,7 @@ header{
            color: #FFFFFF;
            margin-bottom: 31px;
       }
-    p{
+      p{
             max-width: 560px;
            font-weight: 400;
            font-size: 21px;
@@ -273,6 +273,37 @@ header{
            color: #FFFFFFB3;
            margin-bottom: 39px;
       }
+       .btn-border-reveal{
+             background-color: transparent;
+             color: #FFFFFF;
+             border: 1px solid #E9ECF5;
+             position: relative;
+             z-index: 1;
+             padding: 12px 20px;
+             font-weight: 600;
+             font-size: 16px;
+             line-height: 140%;
+             overflow: hidden;
+           &:after {
+             content: "";
+             position: absolute;
+             width: 0;
+             height: 100%;
+             top: 0;
+             left: 0;
+             background-color: #0a2fa8;
+             transition: width 0.3s ease;
+             z-index: -1;
+           }
+           
+           &:hover::after {
+             width: 100%;
+           }
+           
+           &:hover {
+             color: white !important ;
+           }
+                 }
                 
     }
   }

@@ -262,6 +262,35 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: rgba(255, 255, 255, 0.7019607843);
   margin-bottom: 39px;
 }
+.section_one .section_one-wrapper .one-right .btn-border-reveal {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #E9ECF5;
+  position: relative;
+  z-index: 1;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  overflow: hidden;
+}
+.section_one .section_one-wrapper .one-right .btn-border-reveal:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0a2fa8;
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+.section_one .section_one-wrapper .one-right .btn-border-reveal:hover::after {
+  width: 100%;
+}
+.section_one .section_one-wrapper .one-right .btn-border-reveal:hover {
+  color: white !important;
+}
 
 @media (max-width: 1060px) {
   header .header-heros .header-hero .hero-right .hero-rasm {
