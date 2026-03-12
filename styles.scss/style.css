@@ -358,6 +358,10 @@ header .header-heros .header-hero .hero-right .hero-text p {
   }
   .section_one .section_one-wrapper .one-left .one-list {
     max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .section_one .section_one-wrapper .one-left .one-list .one-item {
+    max-width: 48%;
   }
   .section_one .section_one-wrapper .one-right {
     max-width: 100%;

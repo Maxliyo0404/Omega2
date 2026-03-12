@@ -400,9 +400,12 @@ header{
       flex-direction: column;
       .one-left{
          max-width: 100%;
-        
        .one-list{
         max-width: 100%;
+        flex-wrap: wrap;
+        .one-item{
+          max-width: 48%;
+        }
       }
       }
       .one-right{
