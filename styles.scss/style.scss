@@ -180,6 +180,12 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    .one-left{
+      max-width: 45%;
+    }
+    .one-right{
+      max-width: 55%;
+    }
   }
 }
 
