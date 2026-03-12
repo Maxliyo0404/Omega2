@@ -58,7 +58,7 @@ header .header-navbar .header-list .header-item a:hover {
 }
 header .header-heros .header-hero {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   padding: 100px 0;
 }
@@ -112,4 +112,12 @@ header .header-heros .header-hero .hero-left .form .hero-btn {
   font-size: 21px;
   line-height: 39px;
   letter-spacing: -0.66px;
+}
+header .header-heros .header-hero .hero-right {
+  position: relative;
+}
+header .header-heros .header-hero .hero-right .hero-rasm {
+  position: absolute;
+  top: -190%;
+  right: 300%;
 }/*# sourceMappingURL=style.css.map */
