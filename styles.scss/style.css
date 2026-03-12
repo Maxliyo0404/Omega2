@@ -254,6 +254,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   margin-bottom: 31px;
 }
 .section_one .section_one-wrapper .one-right p {
+  max-width: 513px;
   font-weight: 400;
   font-size: 21px;
   line-height: 39px;
