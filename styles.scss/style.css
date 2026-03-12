@@ -447,6 +447,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   }
   .section_one .section_one-wrapper {
     flex-direction: column-reverse;
+    padding: 60px 0;
   }
   .section_one .section_one-wrapper .one-left {
     max-width: 100%;
@@ -459,7 +460,8 @@ header .header-heros .header-hero .hero-right .hero-text p {
     gap: 20px;
   }
   .section_one .section_one-wrapper .one-left .one-list .one-item {
-    width: 100%;
+    max-width: 100%;
+    padding: 10px;
   }
   .section_one .section_one-wrapper .one-right {
     max-width: 100%;

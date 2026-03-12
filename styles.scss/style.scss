@@ -516,6 +516,7 @@ header{
   .section_one{
     .section_one-wrapper{
       flex-direction: column-reverse;
+      padding: 60px 0;
       .one-left{
          max-width: 100%;
         margin-top: 30px;
@@ -525,7 +526,8 @@ header{
         grid-template-columns: 1fr;
         gap: 20px;
         .one-item{
-        width: 100%;
+        max-width:100%;
+        padding: 10px;
         
         }
       }
