@@ -182,6 +182,11 @@ header{
     gap: 30px;
     .one-left{
       max-width: 45%;
+      .one-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
     }
     .one-right{
       max-width: 55%;

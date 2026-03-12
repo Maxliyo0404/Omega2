@@ -179,6 +179,11 @@ header .header-heros .header-hero .hero-right .hero-text p {
 .section_one .section_one-wrapper .one-left {
   max-width: 45%;
 }
+.section_one .section_one-wrapper .one-left .one-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .section_one .section_one-wrapper .one-right {
   max-width: 55%;
 }
