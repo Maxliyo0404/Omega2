@@ -20,7 +20,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 800px;
+  min-height: 850px;
 }
 header .header-navbar {
   padding: 30px 0;
@@ -60,6 +60,7 @@ header .header-heros .header-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 100px 0;
 }
 header .header-heros .header-hero .hero-left {
   width: 45%;
