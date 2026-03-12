@@ -60,7 +60,7 @@ header .header-heros .header-hero {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 header .header-heros .header-hero .hero-left {
   width: 45%;
@@ -115,9 +115,27 @@ header .header-heros .header-hero .hero-left .form .hero-btn {
 }
 header .header-heros .header-hero .hero-right {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 header .header-heros .header-hero .hero-right .hero-rasm {
   position: absolute;
-  top: -190%;
-  right: 300%;
+  top: -100px;
+  right: 250px;
+}
+header .header-heros .header-hero .hero-right .hero-text {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: #5454D4;
+  box-shadow: 0px 52px 54px 0px rgba(65, 62, 101, 0.2980392157);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 240px;
+  right: -350px;
 }/*# sourceMappingURL=style.css.map */
