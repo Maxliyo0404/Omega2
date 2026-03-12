@@ -310,10 +310,16 @@ header{
 }
 .section_two{
   background-image: url(../image/two\ \(2\).png);
-  background-size:cover;
+  background-size:50%;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 0;
+  background-position: right center;
+  margin-bottom: 200px;
+  .section_-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
 
 }
 
