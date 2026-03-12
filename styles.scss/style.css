@@ -177,7 +177,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   gap: 30px;
 }
 .section_one .section_one-wrapper .one-left {
-  max-width: 45%;
+  max-width: 50%;
 }
 .section_one .section_one-wrapper .one-left .one-list {
   display: flex;
@@ -242,7 +242,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: #696871;
 }
 .section_one .section_one-wrapper .one-right {
-  max-width: 55%;
+  max-width: 50%;
 }
 .section_one .section_one-wrapper .one-right h2 {
   max-width: 513px;
@@ -254,7 +254,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   margin-bottom: 31px;
 }
 .section_one .section_one-wrapper .one-right p {
-  max-width: 513px;
+  max-width: 560px;
   font-weight: 400;
   font-size: 21px;
   line-height: 39px;
