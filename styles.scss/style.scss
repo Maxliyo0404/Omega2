@@ -398,6 +398,11 @@ header{
    .section_one{
     .section_one-wrapper{
       flex-direction: column;
+      .one-list{
+        .one-item{
+          max-width: 100%;
+        }
+      }
     }
   }
 }
