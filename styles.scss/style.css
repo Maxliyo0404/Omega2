@@ -183,6 +183,11 @@ header .header-heros .header-hero .hero-right .hero-text p {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
+}
+.section_one .section_one-wrapper .one-left .one-list .one-item {
+  max-width: 389px;
+  background: #FFFFFF;
 }
 .section_one .section_one-wrapper .one-right {
   max-width: 55%;
