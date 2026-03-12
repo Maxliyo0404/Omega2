@@ -395,6 +395,11 @@ header{
       }
     }
   }
+   .section_one{
+    .section_one-wrapper{
+      flex-direction: column;
+    }
+  }
 }
 @media(max-width:760px){
    header{
