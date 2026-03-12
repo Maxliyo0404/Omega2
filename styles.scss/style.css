@@ -180,20 +180,31 @@ header .header-heros .header-hero .hero-right .hero-text p {
 }
 @media (max-width: 860px) {
   header .header-heros .header-hero {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    padding: 20px 0;
   }
   header .header-heros .header-hero .hero-left {
     width: 100%;
+    text-align: start;
   }
   header .header-heros .header-hero .hero-right {
-    flex-direction: column;
+    flex-direction: row;
   }
   header .header-heros .header-hero .hero-right .hero-rasm {
-    top: 0px;
-    right: 0px;
+    width: 50%;
+    position: static;
+    top: auto;
+    right: auto;
   }
   header .header-heros .header-hero .hero-right .hero-text {
-    top: 0px;
-    right: 0px;
+    width: 150px;
+    height: 150px;
+    position: static;
+    top: auto;
+    right: auto;
+  }
+  header .header-heros .header-hero .hero-right .hero-text .icon {
+    width: 35px;
+    height: 35px;
   }
 }/*# sourceMappingURL=style.css.map */

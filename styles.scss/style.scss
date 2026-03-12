@@ -209,19 +209,30 @@ header{
   header{
     .header-heros{
       .header-hero{
-          flex-direction: column-reverse;
+          flex-direction: column;
+          padding: 20px 0;
          .hero-left{
           width: 100%;
+          text-align: start;
          }
          .hero-right{
-          flex-direction: column;
+          flex-direction: row;
           .hero-rasm{
-             top: 0px;
-             right: 0px;
+            width: 50%;
+           position: static;
+            top: auto;
+            right: auto;
           }
           .hero-text{
-            top: 0px;
-            right: 0px;
+           width: 150px;
+           height: 150px;
+           position: static;
+            top: auto;
+            right: auto;
+            .icon{
+              width: 35px;
+              height: 35px;
+            }
           }
          }
       }
