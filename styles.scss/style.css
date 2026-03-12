@@ -244,6 +244,22 @@ header .header-heros .header-hero .hero-right .hero-text p {
 .section_one .section_one-wrapper .one-right {
   max-width: 55%;
 }
+.section_one .section_one-wrapper .one-right h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+.section_one .section_one-wrapper .one-right p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: rgba(255, 255, 255, 0.7019607843);
+  margin-bottom: 39px;
+}
 
 @media (max-width: 1060px) {
   header .header-heros .header-hero .hero-right .hero-rasm {
