@@ -245,6 +245,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   max-width: 55%;
 }
 .section_one .section_one-wrapper .one-right h2 {
+  max-width: 513px;
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
