@@ -313,11 +313,55 @@ header{
   background-size:50%;
   background-repeat: no-repeat;
   background-position: right center;
+  min-height: 700px;
   margin-bottom: 200px;
-  .section_-wrapper{
+  .section_one-wrapper{
+     min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .two-left{
+      max-width: 50%;
+        h2{
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 70px;
+                    letter-spacing: -1.88px;
+                    color: #19191B;
+                    margin-bottom: 18px;
+               }
+             p{
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 39px;
+                    letter-spacing: -0.66px;
+                    color:#696871;
+                    margin-bottom: 35px;
+               }
+               .two-btn{
+                padding: 16px 27px;
+                font-size: 18px;
+                border: 1px solid #F04037;
+                background: #F04037;
+                box-shadow: 0 0 5px #000;
+                color: #fff;
+                outline: none;
+                cursor: progress;
+                  &:hover{
+                   background: none;
+                   border: 1px solid #F04037;
+                   color: #F04037;
+               }
+             }
+    }
+    .two-right{
+      position: relative;
+      .img{
+        position: absolute;
+       
+       
+      }
+    }
   }
  
 
