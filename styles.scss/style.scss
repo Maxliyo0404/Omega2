@@ -315,12 +315,13 @@ header{
   background-position: right center;
   min-height: 700px;
   margin-bottom: 200px;
-  .section_one-wrapper{
-     min-height: 700px;
+  position: relative;
+  .section_two-wrapper{
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .two-left{
+   .two-left{
       max-width: 50%;
         h2{
                     font-weight: 700;
@@ -355,9 +356,11 @@ header{
              }
     }
     .two-right{
-      position: relative;
+      position: absolute;
+      bottom: 5px;
+       right: 700px;
       .img{
-        position: absolute;
+      width: 50%;
         
         
        
@@ -594,6 +597,18 @@ header{
       .one-right{
         max-width: 100%;
         text-align: center;
+         h2{
+                width: 100%;
+                font-size: 28px;
+                line-height: 32px;
+                margin-bottom: 20px;
+            }
+            p{
+                width: 100%;
+                font-size: 15px;
+                line-height: 22px;
+                margin-bottom: 30px;
+            }
       }
       
     }

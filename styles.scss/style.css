@@ -299,17 +299,18 @@ header .header-heros .header-hero .hero-right .hero-text p {
   background-position: right center;
   min-height: 700px;
   margin-bottom: 200px;
+  position: relative;
 }
-.section_two .section_one-wrapper {
+.section_two .section_two-wrapper {
   min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.section_two .section_one-wrapper .two-left {
+.section_two .section_two-wrapper .two-left {
   max-width: 50%;
 }
-.section_two .section_one-wrapper .two-left h2 {
+.section_two .section_two-wrapper .two-left h2 {
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
@@ -317,7 +318,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: #19191B;
   margin-bottom: 18px;
 }
-.section_two .section_one-wrapper .two-left p {
+.section_two .section_two-wrapper .two-left p {
   font-weight: 400;
   font-size: 21px;
   line-height: 39px;
@@ -325,7 +326,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   color: #696871;
   margin-bottom: 35px;
 }
-.section_two .section_one-wrapper .two-left .two-btn {
+.section_two .section_two-wrapper .two-left .two-btn {
   padding: 16px 27px;
   font-size: 18px;
   border: 1px solid #F04037;
@@ -335,16 +336,18 @@ header .header-heros .header-hero .hero-right .hero-text p {
   outline: none;
   cursor: progress;
 }
-.section_two .section_one-wrapper .two-left .two-btn:hover {
+.section_two .section_two-wrapper .two-left .two-btn:hover {
   background: none;
   border: 1px solid #F04037;
   color: #F04037;
 }
-.section_two .section_one-wrapper .two-right {
-  position: relative;
-}
-.section_two .section_one-wrapper .two-right .img {
+.section_two .section_two-wrapper .two-right {
   position: absolute;
+  bottom: 5px;
+  right: 700px;
+}
+.section_two .section_two-wrapper .two-right .img {
+  width: 50%;
 }
 
 @media (max-width: 1060px) {
@@ -521,6 +524,18 @@ header .header-heros .header-hero .hero-right .hero-text p {
   .section_one .section_one-wrapper .one-right {
     max-width: 100%;
     text-align: center;
+  }
+  .section_one .section_one-wrapper .one-right h2 {
+    width: 100%;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  .section_one .section_one-wrapper .one-right p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 560px) {
