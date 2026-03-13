@@ -379,6 +379,35 @@ header .header-heros .header-hero .hero-right .hero-text p {
   .section_one .section_one-wrapper {
     gap: 10px;
   }
+  .section_two {
+    background-size: 100%;
+    min-height: auto;
+  }
+  .section_two .section_two-wrapper {
+    min-height: auto;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section_two .section_two-wrapper .two-left {
+    max-width: 100%;
+    padding-top: -40px;
+  }
+  .section_two .section_two-wrapper .two-left h2 {
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFFFFF;
+  }
+  .section_two .section_two-wrapper .two-left p {
+    color: #EAE9F2;
+  }
+  .section_two .section_two-wrapper .two-right {
+    position: static;
+    bottom: auto;
+    left: auto;
+  }
+  .section_two .section_two-wrapper .two-right img {
+    width: 70%;
+  }
 }
 @media (max-width: 860px) {
   header .header-heros .header-hero {
@@ -549,6 +578,36 @@ header .header-heros .header-hero .hero-right .hero-text p {
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 30px;
+  }
+  .section_two {
+    background-size: 100%;
+    min-height: auto;
+  }
+  .section_two .section_two-wrapper {
+    min-height: auto;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section_two .section_two-wrapper .two-left {
+    max-width: 100%;
+    padding-top: -80px;
+  }
+  .section_two .section_two-wrapper .two-left h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .section_two .section_two-wrapper .two-left p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .section_two .section_two-wrapper .two-right {
+    position: static;
+    bottom: auto;
+    left: auto;
+  }
+  .section_two .section_two-wrapper .two-right img {
+    width: 70%;
   }
 }
 @media (max-width: 560px) {
