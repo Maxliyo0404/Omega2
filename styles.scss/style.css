@@ -343,11 +343,11 @@ header .header-heros .header-hero .hero-right .hero-text p {
 }
 .section_two .section_two-wrapper .two-right {
   position: absolute;
-  bottom: 5px;
-  right: 700px;
+  bottom: 5%;
+  left: 40%;
 }
-.section_two .section_two-wrapper .two-right .img {
-  width: 50%;
+.section_two .section_two-wrapper .two-right img {
+  max-width: 100%;
 }
 
 @media (max-width: 1060px) {
