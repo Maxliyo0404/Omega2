@@ -355,6 +355,18 @@ header .header-heros .header-hero .hero-right .hero-text p {
     top: -90px;
     right: 200px;
   }
+  .section_two {
+    min-height: 500px;
+  }
+  .section_two .section_two-wrapper {
+    min-height: 500px;
+  }
+  .section_two .section_two-wrapper .two-right {
+    left: 45%;
+  }
+  .section_two .section_two-wrapper .two-right img {
+    width: 70%;
+  }
 }
 @media (max-width: 960px) {
   header {
