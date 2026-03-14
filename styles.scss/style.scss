@@ -620,7 +620,9 @@ header{
   }
   .section_three{
     .section_three-wrapper{
-      
+      .three-list{
+        gap: 5px;
+      }
     }
   }
 }
@@ -676,6 +678,13 @@ header{
         text-align: center;
       }
       
+    }
+  }
+  .section_three{
+    .section_three-wrapper{
+      .three-list{
+        gap: 5px;
+      }
     }
   }
   

@@ -558,6 +558,9 @@ header .header-heros .header-hero .hero-right .hero-text p {
     max-width: 100%;
     text-align: center;
   }
+  .section_three .section_three-wrapper .three-list {
+    gap: 5px;
+  }
 }
 @media (max-width: 760px) {
   header .header-heros .header-hero {
@@ -602,6 +605,9 @@ header .header-heros .header-hero .hero-right .hero-text p {
   .section_one .section_one-wrapper .one-right {
     max-width: 100%;
     text-align: center;
+  }
+  .section_three .section_three-wrapper .three-list {
+    gap: 5px;
   }
 }
 @media (max-width: 660px) {
