@@ -467,6 +467,7 @@ header{
     justify-content: space-between;
     gap: 40px;
     .four-left{
+      padding-top: 60px;
         max-width: 50%;
             h2{
                     font-weight: 700;
@@ -499,6 +500,9 @@ header{
                    color: #F04037;
                }
              }
+    }
+    .four-right{
+      
     }
   }
 }

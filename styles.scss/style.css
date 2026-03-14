@@ -440,6 +440,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   gap: 40px;
 }
 .section_four .section_four-wrapper .four-left {
+  padding-top: 60px;
   max-width: 50%;
 }
 .section_four .section_four-wrapper .four-left h2 {
@@ -473,7 +474,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
   border: 1px solid #F04037;
   color: #F04037;
 }
-
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
