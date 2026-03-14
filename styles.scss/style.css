@@ -638,7 +638,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
   letter-spacing: -0.66px;
   color: #696871;
 }
-
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
