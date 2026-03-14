@@ -817,6 +817,19 @@ header{
       }
     }
   }
+  .section_six{
+    .section_six-wrapper{
+      .six-left{
+        max-width: 50%;
+      }
+      .six-right{
+        padding-top: 20px;
+        h2{
+          font-size: 50px;
+        }
+      }
+    }
+  }
 }
 @media(max-width:860px){
   header{
@@ -905,6 +918,23 @@ header{
       .five-list{
         .five-item{
           width: 45%;
+        }
+      }
+    }
+  }
+  .section_six{
+    .section_six-wrapper{
+      flex-direction: column;
+      padding: 60px 0;
+      .six-left{
+        max-width: 50%;
+        margin: 0 auto;
+      }
+      .six-right{
+        max-width: 100%;
+        padding-top:0px;
+        h2{
+          font-size: 50px;
         }
       }
     }
