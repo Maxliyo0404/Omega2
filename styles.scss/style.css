@@ -581,10 +581,10 @@ header .header-heros .header-hero .hero-right .hero-text p {
   }
   .section_two {
     background-size: 100%;
-    min-height: auto;
+    height: auto;
   }
   .section_two .section_two-wrapper {
-    min-height: auto;
+    height: auto;
     flex-direction: column-reverse;
     text-align: center;
   }
