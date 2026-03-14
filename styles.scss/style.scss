@@ -598,7 +598,7 @@ header{
   .section_six-wrapper{
     padding: 80px 0;
     display: flex;
-    align-self:center;
+    align-items:stretch;
     justify-content: space-between;
     gap: 20px;
     .six-left{
@@ -622,9 +622,9 @@ header{
     }
     .six-right{
       width: 50%;
-      padding-top: 40px;
+      padding-top: 60px;
           h2{
-                    width: 515px;
+                    max-width: 515px;
                     font-weight: 700;
                     font-size: 60px;
                     line-height: 70px;
@@ -633,7 +633,7 @@ header{
                     margin-bottom: 20px;
                }
           p{
-                    width: 530px;
+                    max-width: 530px;
                     font-weight: 400;
                     font-size: 21px;
                     line-height: 39px;
@@ -646,7 +646,7 @@ header{
             display: flex;
             align-items: start;
             flex-direction: column;
-            gap: 15px;
+            gap: 20px;
             
             .label{
               width: 100%;
