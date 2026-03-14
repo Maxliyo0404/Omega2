@@ -474,6 +474,10 @@ header .header-heros .header-hero .hero-right .hero-text p {
   border: 1px solid #F04037;
   color: #F04037;
 }
+.section_four .section_four-wrapper .four-right {
+  max-width: 50%;
+  position: relative;
+}
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
