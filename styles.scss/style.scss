@@ -314,7 +314,6 @@ header{
   background-repeat: no-repeat;
   background-position: right center;
   min-height: 700px;
-  margin-bottom: 200px;
   position: relative;
   .section_two-wrapper{
     min-height: 700px;
@@ -666,7 +665,7 @@ header{
       text-align: center;
       .two-left{
         max-width: 100%;
-        padding-top: -80px;
+        margin-top: -50px;
         h2{
           font-size: 30px;
           line-height: 30px;
@@ -684,7 +683,7 @@ header{
         bottom: auto;
         left: auto;
         img{
-          width: 70%;
+          width: 60%;
         }
       }
 

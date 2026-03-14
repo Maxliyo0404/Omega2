@@ -298,7 +298,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
   background-repeat: no-repeat;
   background-position: right center;
   min-height: 700px;
-  margin-bottom: 200px;
   position: relative;
 }
 .section_two .section_two-wrapper {
@@ -586,7 +585,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
   }
   .section_two .section_two-wrapper .two-left {
     max-width: 100%;
-    padding-top: -80px;
+    margin-top: -50px;
   }
   .section_two .section_two-wrapper .two-left h2 {
     font-size: 30px;
@@ -603,7 +602,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
     left: auto;
   }
   .section_two .section_two-wrapper .two-right img {
-    width: 70%;
+    width: 60%;
   }
 }
 @media (max-width: 560px) {
