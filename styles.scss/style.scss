@@ -339,7 +339,7 @@ header{
                     margin-bottom: 35px;
                }
                .two-btn{
-                padding: 16px 27px;
+                padding: 16px 40px;
                 font-size: 18px;
                 border: 1px solid #F04037;
                 background: #F04037;
@@ -486,7 +486,7 @@ header{
                     margin-bottom: 35px;
                }
                .four-btn{
-                padding: 16px 27px;
+                padding: 16px 40px;
                 font-size: 18px;
                 border: 1px solid #F04037;
                 background: #F04037;
@@ -530,6 +530,11 @@ header{
     min-height:500px;
     .section_one-wrapper{
     min-height: 500px;
+    }
+  }
+  .section_four{
+    .section_four-wrapper{
+      gap: 10px;
     }
   }
 }
@@ -607,6 +612,25 @@ header{
         }
       }
 
+    }
+  }
+   .section_four{
+    .section_four-wrapper{
+      flex-direction: column-reverse;
+      .four-left{
+        max-width: 100%;
+        margin-top: -80px;
+      }
+      .four-right{
+        max-width: 50%;
+        margin: 0 auto;
+        .four1{
+          width: 100%;
+        }
+        .four2{
+          width: 60%;
+        }
+      }
     }
   }
 }
@@ -896,6 +920,38 @@ header{
      
     }
   }
+   .section_four{
+    .section_four-wrapper{
+      flex-direction: column-reverse;
+      padding: 40px 0;
+      .four-left{
+        max-width: 100%;
+        margin-top: -80px;
+        text-align: center;
+         h2{
+          font-size: 30px;
+          line-height: 30px;
+          
+        }
+        p{
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 30px;
+          
+        }
+      }
+      .four-right{
+        max-width: 60%;
+        margin: 0 auto;
+        .four1{
+          width: 100%;
+        }
+        .four2{
+          width: 60%;
+        }
+      }
+    }
+  }
 }
 @media(max-width:560px){
  header{
@@ -951,6 +1007,39 @@ header{
          .hero-right{
           display: none;
          }
+      }
+    }
+  }
+  .section_four{
+    .section_four-wrapper{
+      flex-direction: column-reverse;
+      padding: 40px 0;
+      .four-left{
+        max-width: 100%;
+        margin-top: -100px;
+        text-align: center;
+         h2{
+          font-size: 30px;
+          line-height: 30px;
+          
+        }
+        p{
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 30px;
+          
+        }
+  
+      }
+      .four-right{
+        max-width: 60%;
+        margin: 0 auto;
+        .four1{
+          width: 100%;
+        }
+        .four2{
+          width: 60%;
+        }
       }
     }
   }
