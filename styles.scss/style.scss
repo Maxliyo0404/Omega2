@@ -620,9 +620,12 @@ header{
   }
   .section_three{
     .section_three-wrapper{
-      .three-list{
-        gap: 5px;
+      .three-lists{
+        .three-list{
+        gap: 10px;
       }
+      }
+     
     }
   }
 }
@@ -682,9 +685,15 @@ header{
   }
   .section_three{
     .section_three-wrapper{
-      .three-list{
-        gap: 5px;
+      .three-lists{
+         .three-list{
+        gap: 10px;
+        .three-item{
+          width: 30%;
+        }
       }
+      }
+     
     }
   }
   
