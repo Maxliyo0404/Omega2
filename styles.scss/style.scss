@@ -929,12 +929,31 @@ header{
       .six-left{
         max-width: 50%;
         margin: 0 auto;
+        text-align: center;
+         .spans{
+        .six2{
+          
+          top: 5%;
+          left: 60%;
+
+        }
+      }
       }
       .six-right{
-        max-width: 100%;
+        width: 100%;
         padding-top:0px;
+        text-align: center;
         h2{
+          max-width: 100%;
           font-size: 50px;
+          text-align: center;
+        }
+        p{
+        max-width: 100%;
+        text-align: center;
+        }
+        .form{
+          max-width: 100%;
         }
       }
     }
@@ -1013,6 +1032,7 @@ header{
      
     }
   }
+
   
 }
 @media(max-width:660px){
@@ -1208,6 +1228,44 @@ header{
           p{
             max-width: 100%;
           }
+        }
+      }
+    }
+  }
+  .section_six{
+    .section_six-wrapper{
+      flex-direction: column;
+      padding: 60px 0;
+      .six-left{
+        max-width: 50%;
+        margin: 0 auto;
+        text-align: center;
+         .spans{
+        .six2{
+          
+          top: 5%;
+          left: 60%;
+
+        }
+      }
+      }
+      .six-right{
+        width: 100%;
+        padding-top:0px;
+        text-align: center;
+        h2{
+          max-width: 100%;
+          font-size: 30px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        p{
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 26px;
+        }
+        .form{
+          max-width: 100%;
         }
       }
     }
