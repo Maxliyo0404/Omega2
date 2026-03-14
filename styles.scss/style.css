@@ -704,6 +704,12 @@ header .header-heros .header-hero .hero-right .hero-text p {
   .section_two .section_two-wrapper .two-right img {
     width: 60%;
   }
+  .section_three .section_three-wrapper .three-lists .three-list {
+    gap: 10px;
+  }
+  .section_three .section_three-wrapper .three-lists .three-list .three-item {
+    width: 30%;
+  }
 }
 @media (max-width: 560px) {
   header .header-navbar {

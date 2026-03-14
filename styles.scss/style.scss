@@ -807,6 +807,19 @@ header{
 
     }
   }
+   .section_three{
+    .section_three-wrapper{
+      .three-lists{
+         .three-list{
+        gap: 10px;
+        .three-item{
+          width: 30%;
+        }
+      }
+      }
+     
+    }
+  }
 }
 @media(max-width:560px){
  header{
