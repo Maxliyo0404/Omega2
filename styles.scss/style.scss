@@ -376,7 +376,12 @@ header{
 
 
 @media(max-width:1160px){
-  
+  .section_two{
+    min-height:500px;
+    .section_one-wrapper{
+    min-height: 500px;
+    }
+  }
 }
 @media(max-width:1060px){
   header{

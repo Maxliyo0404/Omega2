@@ -349,6 +349,14 @@ header .header-heros .header-hero .hero-right .hero-text p {
   max-width: 90%;
 }
 
+@media (max-width: 1160px) {
+  .section_two {
+    min-height: 500px;
+  }
+  .section_two .section_one-wrapper {
+    min-height: 500px;
+  }
+}
 @media (max-width: 1060px) {
   header .header-heros .header-hero .hero-right .hero-rasm {
     top: -90px;
