@@ -505,7 +505,15 @@ header{
       max-width: 50%;
       position: relative;
       .four1{
-        
+        width: 100%;
+        z-index: 1;
+      }
+      .four2{
+        width: 65%;
+        position: absolute;
+        z-index: 2;
+        bottom: 10%;
+        left: -20%;
       }
 
     }

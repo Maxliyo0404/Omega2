@@ -478,6 +478,18 @@ header .header-heros .header-hero .hero-right .hero-text p {
   max-width: 50%;
   position: relative;
 }
+.section_four .section_four-wrapper .four-right .four1 {
+  width: 100%;
+  z-index: 1;
+}
+.section_four .section_four-wrapper .four-right .four2 {
+  width: 65%;
+  position: absolute;
+  z-index: 2;
+  bottom: 10%;
+  left: -20%;
+}
+
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
