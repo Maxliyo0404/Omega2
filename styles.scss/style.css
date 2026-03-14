@@ -431,13 +431,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
   font-size: 20px;
   color: #77BF41;
 }
-.section_three .section_three-wrapper .three-lists .three-list .three-item h4 {
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 100;
-  letter-spacing: 0.66px;
-  color: #19191B;
-}
 
 @media (max-width: 1160px) {
   .section_two {
