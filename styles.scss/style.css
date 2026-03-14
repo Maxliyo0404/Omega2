@@ -439,6 +439,41 @@ header .header-heros .header-hero .hero-right .hero-text p {
   justify-content: space-between;
   gap: 40px;
 }
+.section_four .section_four-wrapper .four-left {
+  max-width: 50%;
+}
+.section_four .section_four-wrapper .four-left h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: #19191B;
+  margin-bottom: 18px;
+}
+.section_four .section_four-wrapper .four-left p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #696871;
+  margin-bottom: 35px;
+}
+.section_four .section_four-wrapper .four-left .four-btn {
+  padding: 16px 27px;
+  font-size: 18px;
+  border: 1px solid #F04037;
+  background: #F04037;
+  box-shadow: 0 0 5px #000;
+  color: #fff;
+  outline: none;
+  cursor: progress;
+}
+.section_four .section_four-wrapper .four-left .four-btn:hover {
+  background: none;
+  border: 1px solid #F04037;
+  color: #F04037;
+}
+
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
