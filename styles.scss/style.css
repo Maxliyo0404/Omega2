@@ -349,6 +349,24 @@ header .header-heros .header-hero .hero-right .hero-text p {
   max-width: 90%;
 }
 
+.section_three {
+  background: #F7F7FB;
+}
+.section_three .section_three-wrapper {
+  padding: 80px 0;
+}
+.section_three .section_three-wrapper h2 {
+  max-width: 493px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: #19191B;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
