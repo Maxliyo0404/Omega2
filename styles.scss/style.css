@@ -439,7 +439,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
   justify-content: space-between;
   gap: 40px;
 }
-
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
