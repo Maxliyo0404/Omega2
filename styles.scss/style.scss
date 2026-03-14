@@ -390,12 +390,13 @@ header{
       .three-list{
         display: flex;
         align-items: start;
-        justify-content: space-between;
+        justify-content: center;
         gap: 30px;
         margin-bottom: 20px;
         .three-item{
-          width: 33%;
+          width: 32%;
           background: #FFFFFF;
+          border: 1px solid #EAE9F2;
           border-radius: 10px;
           padding: 15px;
           display: flex;
@@ -450,6 +451,15 @@ header{
                        
                         color:#77BF41;
 
+            }
+             h4{
+
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 100;
+                letter-spacing: 0.66px;
+                color:#19191B;
+              
             }
 
         }
