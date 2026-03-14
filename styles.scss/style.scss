@@ -656,13 +656,18 @@ header{
               border: none;
               display: flex;
               align-items: center;
-              gap: 40px;
+              text-align: center;
+              gap: 0px;
               color: #CDCCD9;
               border: 1px solid #EAE9F2;
+              i{
+                font-size: 22px;
+              }
               .input{
                 width: 100%;
                 outline: none;
                 border: none;
+                text-align: center;
                 background: none;
                 font-weight: 400;
                 font-size: 18px;
@@ -677,16 +682,21 @@ header{
               width: 100%;
               background: #F04037;
               border-radius: 10px;
-             border: 1px solid #C31A12;
+              border: 1px solid #C31A12;
               text-align: center;
-              padding: 20px 0;
+              padding: 22px 0;
               border: none;
               font-weight: 500;
               font-size: 21px;
               line-height: 100%;
               letter-spacing: -0.66px;
               color:#FFFFFF;
-
+               &:hover{
+                background: #FFFFFF;
+                color: #F04037;
+                border: 1px solid #C31A12;
+                transform: scale(1.5px);
+               }
             }
            }
          
