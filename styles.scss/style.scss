@@ -426,7 +426,7 @@ header{
     }
   }
   .section_two{
-    background-size: 100%;
+    background-size: cover;
     min-height: auto;
     .section_two-wrapper{
       min-height: auto;
@@ -659,8 +659,7 @@ header{
     }
   }
    .section_two{
-    background-size: 100%;
-    height: auto;
+   
     .section_two-wrapper{
       height: auto;
       flex-direction: column-reverse;

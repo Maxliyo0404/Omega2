@@ -380,7 +380,7 @@ header .header-heros .header-hero .hero-right .hero-text p {
     gap: 10px;
   }
   .section_two {
-    background-size: 100%;
+    background-size: cover;
     min-height: auto;
   }
   .section_two .section_two-wrapper {
@@ -578,10 +578,6 @@ header .header-heros .header-hero .hero-right .hero-text p {
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 30px;
-  }
-  .section_two {
-    background-size: 100%;
-    height: auto;
   }
   .section_two .section_two-wrapper {
     height: auto;
