@@ -685,6 +685,12 @@ header{
   }
   .section_three{
     .section_three-wrapper{
+      padding: 60px 0;
+      h2{
+        font-size: 40px ;
+        line-height: 45px;
+        margin-bottom: 30px;
+      }
       .three-lists{
          .three-list{
         gap: 10px;
@@ -809,11 +815,21 @@ header{
   }
    .section_three{
     .section_three-wrapper{
+      padding: 40px 0;
+      h2{
+        max-width: 100%;
+        font-size: 29px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
       .three-lists{
          .three-list{
-        gap: 10px;
+         flex-direction: column;
+          text-align: center;
         .three-item{
-          width: 30%;
+          width: 100%;
+          gap: 20px;
+         
         }
       }
       }

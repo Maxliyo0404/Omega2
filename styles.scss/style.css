@@ -606,6 +606,14 @@ header .header-heros .header-hero .hero-right .hero-text p {
     max-width: 100%;
     text-align: center;
   }
+  .section_three .section_three-wrapper {
+    padding: 60px 0;
+  }
+  .section_three .section_three-wrapper h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
   .section_three .section_three-wrapper .three-lists .three-list {
     gap: 10px;
   }
@@ -704,11 +712,22 @@ header .header-heros .header-hero .hero-right .hero-text p {
   .section_two .section_two-wrapper .two-right img {
     width: 60%;
   }
+  .section_three .section_three-wrapper {
+    padding: 40px 0;
+  }
+  .section_three .section_three-wrapper h2 {
+    max-width: 100%;
+    font-size: 29px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
   .section_three .section_three-wrapper .three-lists .three-list {
-    gap: 10px;
+    flex-direction: column;
+    text-align: center;
   }
   .section_three .section_three-wrapper .three-lists .three-list .three-item {
-    width: 30%;
+    width: 100%;
+    gap: 20px;
   }
 }
 @media (max-width: 560px) {
