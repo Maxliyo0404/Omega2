@@ -366,6 +366,19 @@ header .header-heros .header-hero .hero-right .hero-text p {
   margin: 0 auto;
   margin-bottom: 60px;
 }
+.section_three .section_three-wrapper .three-lists {
+  display: flex;
+  flex-direction: column;
+}
+.section_three .section_three-wrapper .three-lists .three-list {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.section_three .section_three-wrapper .three-lists .three-list .three-item {
+  width: 100%;
+}
 
 @media (max-width: 1160px) {
   .section_two {

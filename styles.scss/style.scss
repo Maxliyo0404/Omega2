@@ -384,6 +384,20 @@ header{
        margin: 0 auto;
        margin-bottom: 60px;
     }
+    .three-lists{
+      display: flex;
+      flex-direction: column;
+      .three-list{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 30px;
+        .three-item{
+          width: 100%;
+
+        }
+      }
+    }
   }
 }
 
