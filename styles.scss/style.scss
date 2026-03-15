@@ -1485,5 +1485,20 @@ footer{
       }
     }
   }
+    footer{
+    .footer{
+      padding: 20px 0;
+     .footer-list{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        gap: 30px;
+        margin: 0 auto;
+        .footer-item{
+          max-width: 100%;
+
+        }
+      }
+    }
+  }
 }
    
