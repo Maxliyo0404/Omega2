@@ -1213,6 +1213,18 @@ footer .footer .footer-list .footer-item .footer-tel {
   .section_six .section_six-wrapper .six-right .form .six-btn {
     padding: 14px;
   }
+  footer .footer {
+    padding: 20px 0;
+  }
+  footer .footer .footer-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+  }
+  footer .footer .footer-list .footer-item {
+    max-width: 100%;
+  }
 }
 @media (max-width: 560px) {
   header .header-navbar {
