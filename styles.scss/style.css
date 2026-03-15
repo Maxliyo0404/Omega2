@@ -1004,8 +1004,8 @@ footer .footer .footer-list .footer-item .footer-tel {
   }
   footer .footer .footer-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
   }
   footer .footer .footer-list .footer-item {
     max-width: 100%;
