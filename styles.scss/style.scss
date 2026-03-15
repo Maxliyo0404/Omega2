@@ -1117,6 +1117,21 @@ footer{
      
     }
   }
+   footer{
+    .footer{
+      padding: 60px 0;
+     
+      .footer-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        .footer-item{
+          max-width: 100%;
+
+        }
+      }
+    }
+  }
 
   
 }

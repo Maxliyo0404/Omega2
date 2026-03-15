@@ -999,6 +999,17 @@ footer .footer .footer-list .footer-item .footer-tel {
   .section_three .section_three-wrapper .three-lists .three-list .three-item {
     width: 30%;
   }
+  footer .footer {
+    padding: 60px 0;
+  }
+  footer .footer .footer-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer .footer .footer-list .footer-item {
+    max-width: 100%;
+  }
 }
 @media (max-width: 660px) {
   header .header-heros .header-hero {
