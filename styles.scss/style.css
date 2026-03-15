@@ -835,6 +835,9 @@ footer .footer .footer-list .footer-item .footer-tel {
   footer .footer .footer-list {
     gap: 20px;
   }
+  footer .footer .footer-list .footer-item {
+    max-width: 18%;
+  }
 }
 @media (max-width: 860px) {
   header .header-heros .header-hero {
