@@ -829,6 +829,12 @@ footer .footer .footer-list .footer-item .footer-tel {
   .section_six .section_six-wrapper .six-right h2 {
     font-size: 50px;
   }
+  footer .footer {
+    padding: 60px 0;
+  }
+  footer .footer .footer-list {
+    gap: 20px;
+  }
 }
 @media (max-width: 860px) {
   header .header-heros .header-hero {

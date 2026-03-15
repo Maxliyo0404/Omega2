@@ -903,6 +903,18 @@ footer{
       }
     }
   }
+  footer{
+    .footer{
+      padding: 60px 0;
+      .footer-list{
+        gap: 20px;
+        .footer-item{
+          
+
+        }
+      }
+    }
+  }
 }
 @media(max-width:860px){
   header{
