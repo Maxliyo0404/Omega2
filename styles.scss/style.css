@@ -664,6 +664,16 @@ header .header-heros .header-hero .hero-right .hero-text p {
   transform: scale(1.5px);
 }
 
+footer .footer {
+  padding: 80px 0;
+}
+footer .footer .footer-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;

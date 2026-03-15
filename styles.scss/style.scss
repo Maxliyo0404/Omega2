@@ -703,6 +703,17 @@ header{
     }
   }
 }
+footer{
+  .footer{
+    padding: 80px 0;
+    .footer-list{
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 40px;
+    }
+  }
+}
 
 
 
