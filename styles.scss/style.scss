@@ -737,6 +737,21 @@ footer{
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                .icon{
+                  width: 30px;
+                  height: 30px;
+                  background: #696871;
+                  border-radius: 50px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: #FFFFFF;
+                  font-size: 13px;
+
+                }
+               }
+               .footer-a{
+                
                }
       }
     }

@@ -701,7 +701,17 @@ footer .footer .footer-list .footer-item .iconlar {
   align-items: center;
   gap: 10px;
 }
-
+footer .footer .footer-list .footer-item .iconlar .icon {
+  width: 30px;
+  height: 30px;
+  background: #696871;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 13px;
+}
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
