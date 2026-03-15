@@ -808,7 +808,7 @@ footer .footer .footer-list .footer-item .footer-tel {
   }
   .section_four .section_four-wrapper .four-left {
     max-width: 100%;
-    margin-top: -80px;
+    transform: translate(0, -100px);
   }
   .section_four .section_four-wrapper .four-right {
     max-width: 50%;
@@ -1125,7 +1125,6 @@ footer .footer .footer-list .footer-item .footer-tel {
   }
   .section_four .section_four-wrapper .four-left {
     max-width: 100%;
-    padding-top: 0;
     text-align: center;
   }
   .section_four .section_four-wrapper .four-left h2 {
@@ -1138,10 +1137,8 @@ footer .footer .footer-list .footer-item .footer-tel {
     margin-bottom: 30px;
   }
   .section_four .section_four-wrapper .four-right {
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto;
-    margin-top: -40px;
-    padding-bottom: 40px;
   }
   .section_four .section_four-wrapper .four-right .four1 {
     width: 100%;
@@ -1283,11 +1280,10 @@ footer .footer .footer-list .footer-item .footer-tel {
   }
   .section_four .section_four-wrapper {
     flex-direction: column-reverse;
-    padding: 40px 0;
+    padding: 10px 0;
   }
   .section_four .section_four-wrapper .four-left {
     max-width: 100%;
-    margin-top: -100px;
     text-align: center;
   }
   .section_four .section_four-wrapper .four-left h2 {

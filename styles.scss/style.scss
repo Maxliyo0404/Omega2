@@ -876,7 +876,7 @@ footer{
       flex-direction: column-reverse;
       .four-left{
         max-width: 100%;
-        margin-top: -80px;
+        transform: translate(0, -100px);
       }
       .four-right{
         max-width: 50%;
@@ -1273,9 +1273,7 @@ footer{
       padding: 40px 0;
       .four-left{
         max-width: 100%;
-        padding-top: 0;
-        
-        text-align: center;
+         text-align: center;
          h2{
           font-size: 30px;
           line-height: 30px;
@@ -1289,10 +1287,8 @@ footer{
         }
       }
       .four-right{
-        max-width: 60%;
+        max-width: 50%;
         margin: 0 auto;
-        margin-top: -40px;
-        padding-bottom: 40px;
         .four1{
           width: 100%;
         }
@@ -1468,10 +1464,9 @@ footer{
   .section_four{
     .section_four-wrapper{
       flex-direction: column-reverse;
-      padding: 40px 0;
+      padding: 10px 0;
       .four-left{
         max-width: 100%;
-        margin-top: -100px;
         text-align: center;
          h2{
           font-size: 30px;
