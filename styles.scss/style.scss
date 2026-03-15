@@ -1235,11 +1235,12 @@ header{
   .section_six{
     .section_six-wrapper{
       flex-direction: column;
-      padding: 60px 0;
+      padding: 20px 0;
       .six-left{
-        max-width: 50%;
+        max-width: 70%;
         margin: 0 auto;
         text-align: center;
+
          .spans{
         .six2{
           
@@ -1263,9 +1264,16 @@ header{
         max-width: 100%;
         font-size: 18px;
         line-height: 26px;
+        margin-bottom: 22px;
         }
         .form{
           max-width: 100%;
+          .label{
+            padding: 6px 0;
+          }
+          .six-btn{
+            padding: 14px;
+          }
         }
       }
     }

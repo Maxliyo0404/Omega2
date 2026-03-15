@@ -1086,10 +1086,10 @@ header .header-heros .header-hero .hero-right .hero-text p {
   }
   .section_six .section_six-wrapper {
     flex-direction: column;
-    padding: 60px 0;
+    padding: 20px 0;
   }
   .section_six .section_six-wrapper .six-left {
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
     text-align: center;
   }
@@ -1112,9 +1112,16 @@ header .header-heros .header-hero .hero-right .hero-text p {
     max-width: 100%;
     font-size: 18px;
     line-height: 26px;
+    margin-bottom: 22px;
   }
   .section_six .section_six-wrapper .six-right .form {
     max-width: 100%;
+  }
+  .section_six .section_six-wrapper .six-right .form .label {
+    padding: 6px 0;
+  }
+  .section_six .section_six-wrapper .six-right .form .six-btn {
+    padding: 14px;
   }
 }
 @media (max-width: 560px) {
