@@ -712,6 +712,29 @@ footer .footer .footer-list .footer-item .iconlar .icon {
   color: #FFFFFF;
   font-size: 13px;
 }
+footer .footer .footer-list .footer-item .footer-about {
+  color: #19191B;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+footer .footer .footer-list .footer-item .footer-a {
+  color: #424246;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+footer .footer .footer-list .footer-item .footer-tel {
+  color: #5454D4;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
 @media (max-width: 1160px) {
   .section_two {
     min-height: 500px;
