@@ -1126,7 +1126,6 @@ footer .footer .footer-list .footer-item .footer-tel {
   .section_four .section_four-wrapper .four-left {
     max-width: 100%;
     padding-top: 0;
-    margin-top: -20px;
     text-align: center;
   }
   .section_four .section_four-wrapper .four-left h2 {
@@ -1141,6 +1140,8 @@ footer .footer .footer-list .footer-item .footer-tel {
   .section_four .section_four-wrapper .four-right {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: -40px;
+    padding-bottom: 40px;
   }
   .section_four .section_four-wrapper .four-right .four1 {
     width: 100%;
@@ -1149,7 +1150,7 @@ footer .footer .footer-list .footer-item .footer-tel {
     width: 60%;
   }
   .section_five .section_five-wrapper {
-    padding: 60px 0;
+    padding: 20px 0;
   }
   .section_five .section_five-wrapper .five-tetle {
     margin-bottom: 30px;
@@ -1168,11 +1169,18 @@ footer .footer .footer-list .footer-item .footer-tel {
     flex-direction: column;
   }
   .section_five .section_five-wrapper .five-list .five-item {
-    width: 100%;
+    min-width: 100%;
     padding: 15px;
   }
   .section_five .section_five-wrapper .five-list .five-item p {
+    font-size: 17px;
+    line-height: 22px;
     max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .section_five .section_five-wrapper .five-list .five-item .five-texts .five-text h4 {
+    font-size: 18px;
+    line-height: 25px;
   }
   .section_six .section_six-wrapper {
     flex-direction: column;

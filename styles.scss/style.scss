@@ -1274,7 +1274,7 @@ footer{
       .four-left{
         max-width: 100%;
         padding-top: 0;
-        margin-top: -20px;
+        
         text-align: center;
          h2{
           font-size: 30px;
@@ -1291,6 +1291,8 @@ footer{
       .four-right{
         max-width: 60%;
         margin: 0 auto;
+        margin-top: -40px;
+        padding-bottom: 40px;
         .four1{
           width: 100%;
         }
@@ -1302,7 +1304,7 @@ footer{
   }
    .section_five{
     .section_five-wrapper{
-      padding: 60px 0;
+      padding: 20px 0;
       .five-tetle{
         margin-bottom: 30px;
         max-width: 100%;
@@ -1323,10 +1325,21 @@ footer{
         flex-direction: column;
        
         .five-item{
-          width: 100%;
+          min-width: 100%;
           padding: 15px;
           p{
+            font-size: 17px;
+            line-height: 22px;
             max-width: 100%;
+            margin-bottom: 20px;
+          }
+          .five-texts{
+            .five-text{
+              h4{
+                font-size: 18px;
+                line-height: 25px;
+              }
+            }
           }
         }
       }
