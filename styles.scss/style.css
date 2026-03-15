@@ -696,6 +696,11 @@ footer .footer .footer-list .footer-item p {
   color: #696871;
   margin-bottom: 8px;
 }
+footer .footer .footer-list .footer-item .iconlar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 @media (max-width: 1160px) {
   .section_two {
